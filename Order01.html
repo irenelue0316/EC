@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-info navbar-dark">
+            <a class="navbar-brand" href="#" style="padding:10px;color: darkgreen" >
+                高雄設計電商平台
+                <!--<img src="img/care icon.png" style="width:50px;" />-->
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbaritem">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div id="navbaritem" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a href="#clothH" class="nav-link">我的訂單</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a href="#clothW" class="nav-link">查詢作業</a>
+                    </li>-->
+
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+   
+
+
+
+    <div class="container bg-light" style="margin-top:30px;">
+
+        <h5 class="bg-info rounded text-white text-left" style="padding:10px;">
+            我的訂單
+        </h5>
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">尚未付款</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">待出貨</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">待收貨</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">待收貨</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">已完成</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">已取消</a>
+            </li>
+        </ul>
+
+        <p>&nbsp;</p>
+
+
+
+
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header ">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                        <!--<h5 class="bg-warning rounded text-white text-left"  >-->
+                        2022-04-26 我愛綠植
+
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <div style="margin-top:2px;">
+                            <table class="text-center bg-white table ">
+                                <tr>
+                                    <td><h6>訂單編號</h6></td>
+                                    <td><h6>2022042600000001</h6></td>
+                                </tr>
+                                <tr>
+                                    <td>訂單金額</td>
+                                    <td>$896</td>
+                                </tr>
+                                <tr>
+                                    <td>訂單狀態</td>
+                                    <td class="text-danger  btn-lg ">尚未付款</td>
+
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <button type="button" class="btn btn-primary">查看訂單明細</button>
+                        <button type="button" class="btn btn-danger">我要付款</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header ">
+                    <a class="btn   " data-bs-toggle="collapse" href="#collapseTwo">
+                        <!--<h5 class="bg-warning rounded text-white text-left"  >-->
+                        2022-04-28 我愛綠植
+
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <div style="margin-top:2px;">
+                            <table class="text-center bg-white table  ">
+                                <tr>
+                                    <td><h6>訂單編號</h6></td>
+                                    <td><h6>2022042600000001</h6></td>
+                                </tr>
+                                <tr>
+                                    <td>訂單金額</td>
+                                    <td>$896</td>
+                                </tr>
+                                <tr>
+                                    <td>訂單狀態</td>
+                                    <td class="text-danger  btn-lg ">尚未付款</td>
+
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <button type="button" class="btn btn-primary">查看訂單明細</button>
+                        <button type="button" class="btn btn-danger">我要付款</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="card-header ">
+                    <a class="btn  " data-bs-toggle="collapse" href="#collapseTree">
+                        <!--<h5 class="bg-warning rounded text-white text-left"  >-->
+                        2022-01-01 我愛綠植
+
+                    </a>
+                </div>
+                <div id="collapseTree" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <div style="margin-top:2px;">
+                            <table class="text-center bg-white table  ">
+                                <tr>
+                                    <td><h6>訂單編號</h6></td>
+                                    <td><h6>2022042600000001</h6></td>
+                                </tr>
+                                <tr>
+                                    <td>訂單金額</td>
+                                    <td>$896</td>
+                                </tr>
+                                <tr>
+                                    <td>訂單狀態</td>
+                                    <td class="text-danger  btn-lg ">尚未付款</td>
+
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <button type="button" class="btn btn-primary">查看訂單明細</button>
+                        <button type="button" class="btn btn-danger">我要付款</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-footer bg-light ">
+                    落款
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+</body>
+</html>

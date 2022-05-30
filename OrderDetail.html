@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+    <div class="container bg-light" style="margin-top:30px;">
+
+        <h5 class="bg-info rounded text-white text-left" style="padding:10px;">
+            我的訂單
+        </h5>
+
+
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header ">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                        <!--<h5 class="bg-warning rounded text-white text-left"  >-->
+                        2022-04-26 我愛綠植
+
+                    </a>
+                </div>
+
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <div style="margin-top:2px;">
+                            <table class="text-center bg-white table ">
+                                <tr>
+                                    <td><h6>訂單編號</h6></td>
+                                    <td><h6>2022042600000001</td>
+                                </tr>
+                                <tr>
+                                    <td><h6>訂單金額</h6></td>
+                                    <td>$896</td>
+                                </tr>
+                                <tr>
+                                    <td><h6>訂單狀態</h6></td>
+                                    <td>已完成</td>
+                                </tr>
+                                <tr>
+                                    <td><h6>付款方式</h6></td>
+                                    <td>信用卡</td>
+                                </tr>
+                                <tr>
+                                    <td><h6>配送方式</h6></td>
+                                    <td>宅配</td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <button type="button" class="btn btn-warning">返回我的訂單</button>
+                        <button type="button" class="btn btn-info">我要取消</button>
+                        <button type="button" class="btn btn-info">我要評價</button>
+                        <button type="button" class="btn btn-danger">我要退貨</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="card-header ">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseTwo">
+                        <!--<h5 class="bg-warning rounded text-white text-left"  >-->
+                        訂單內容
+
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <div style="margin-top:2px;">
+                            <table class="text-center bg-white table ">
+                                <tr>
+                                    <td><h6>商品圖</h6></td>
+                                    <td><h6>品名/規格</h6></td>
+                                    <td><h6>單價</h6></td>
+                                    <td><h6>數量</h6></td>
+                                    <td><h6>合計</h6></td>
+                                </tr>
+                                <tr>
+                                    <td><h6><img src="img/leaf.jpg" class="rounded " style="width:120px;" /></h6></td>
+                                    <td><h6>彩葉草</h6></td>
+                                    <td><h6>$99</h6></td>
+                                    <td><h6>2</h6></td>
+                                    <td><h6>$198</h6></td>
+                                </tr>
+                                <tr>
+                                    <td><h6><img src="img/images.jpg" class="rounded " style="width:120px;" /></h6></td>
+                                    <td><h6>水泥盆/灰</h6></td>
+                                    <td><h6>$99</h6></td>
+                                    <td><h6>2</h6></td>
+                                    <td><h6>$198</h6></td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="media-body ml-2">
+                    <h4>跟著實務學習網頁設計</h4>
+                    <p>介紹HTML、CSS、JavaScript、jQuery網頁程式設計。</p>
+                    <p>介紹Bootstrap、jQueryMobile、Cordova跨平台程式設計。</p>
+                    <p>介紹微軟MTA HTML & CSS國際認證解題。</p>
+                </div>
+
+                <!--<div class="card">
+                    <div class="card-body">
+                        <table class="text-center bg-white table text-left">
+                            <tr>
+                                <td><h6>小計</h6></td>
+                                <td><h6>$796</h6></td>
+                            </tr>
+                            <tr>
+                                <td><h6>運費</h6></td>
+                                <td><h6>$100</h6></td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>-->
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+</html>
